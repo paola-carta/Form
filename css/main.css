@@ -2,37 +2,14 @@ h1 {
     font-size: 58px;
 }
 h2 {
-    font-size: 29px;
+    font-size: 32px;
 }
-.paola-form{
-	padding: 500, 10, 500, 10px;
-}
-.paola-form textarea {
-	height: 108px;
-}
+
 .jumbotron{
 	background: url(../images/sfondo.jpg) no-repeat;
 	background-size: cover;
 	min-height: 600px;
 }
-@media (max-width: 750px) { 
-	h1 {
-    font-size: 29px;
-} 
-h2 {
-    font-size: 14px;
-}
-	.navbar-default .navbar-collapse{
-	background: rgba(0,0,0,0.2);
-	border-color: transparent;
-} 
-	.navbar-default .navbar-nav>li>a {
-	font-size: 20px;
-    	text-align: center;
-    	color: #000;
-}
-
- }
 
  .navbar-brand{
 	background: url(../images/logo.gif) no-repeat;
@@ -50,10 +27,37 @@ h2 {
     font-weight: 600;
 }
 
+.paola-form{
+	padding: 200,10,200,10px;
+}
+
+.paola-form textarea {
+	height: 108px;
+}
+
 .welcome {
     background: rgba(0, 0, 0, 0.2);
     color: rgba(256, 256, 256, 0.85);
     padding: 150px;
     text-align: center;
+}
+
+@media (max-width: 750px) { 
+	h1 {
+    font-size: 29px;
+} 
+	h2 {
+    font-size: 16px;
+}
+	.navbar-default .navbar-collapse{
+	background: rgba(0,0,0,0.2);
+	border-color: transparent;
+} 
+	.navbar-default .navbar-nav>li>a {
+	font-size: 20px;
+    	text-align: center;
+    	color: #000;
+	}
+
 }
 
